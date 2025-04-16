@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+    font-family: monospace;
+}
+
+.elem{
+    height: 120px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#one{
+    position: relative;
+
+}
+.elem h1 {
+    color: white;
+    font-size: 6vw;
+    z-index: 9;
+    mix-blend-mode: difference;
+    font-weight: 700;
+}
+.elem img{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    opacity: 0;
+}
